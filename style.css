@@ -196,6 +196,7 @@ nav {
     background-color: #0b0b0f;
     min-height: 10000px;
     padding: 0px 30px;
+    /* border: 2px solid red; */
 }
 
 .genre p {
@@ -204,22 +205,21 @@ nav {
     font-weight: 500;
 }
 
-.genre-container {
-    color: red;
+.genres {
+    /* border: 2px solid red; */
     /* display: flex; */
     margin-top: 40px;
-    gap: 40px;
-
+    gap: 130px;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 400px;
-    overflow-x: auto;
-    scrollbar-width: none;
+    /* overflow-x: auto; */
+    /* scrollbar-width: none; */
 }
 
-.genre-container::-webkit-scrollbar {
+/* .genre-container::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .genre-child {
     /* border: 2px solid green; */
@@ -227,21 +227,55 @@ nav {
     background-image: url(images/wave.png);
     background-size: cover;
     background-position: bottom;
-    height: 319px;
-    width: 396px;
+    height: 419px;
+    width: 496px;
     border-radius: 20px;
     color: #FFF8EA;
     position: relative;
 }
-
+._half {
+    /* border: 2px solid red; */
+    background-color: #3f3f3f;
+    background-image: url(images/wave.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 419px;
+    width: 284px;
+    border-radius: 20px 0px 0px 20px;
+}
 .genre-child p {
+    /* border: 2px solid red; */
     font-size: 32px;
     font-weight: 500;
-    padding: 25px 0 0 45px;
+    padding: 40px 0 0 45px;
+}
+.genre-child img:nth-child(2) {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.genre-child img:nth-child(3) {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 120px;
+    right: 50px;
 }
 .genre-child img:last-child {
     /* border: 2px solid red; */
     position: absolute;
-    top: 70px;
-    right: 140px;
+    top: 120px;
+    right: 180px;
+}
+
+/* Another */
+.new-release p {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 500;
+}
+.new-releases {
+    border: 2px solid red;
+    display: flex;
+    gap: 44px;
 }
