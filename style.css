@@ -89,7 +89,7 @@ nav {
     /* border: 2px solid blue; */
     position: absolute;
     right: 7px;
-    bottom: 13px;
+    bottom: 12px;
 }
 
 .right-nav a {
@@ -275,7 +275,7 @@ nav {
     font-weight: 500;
 }
 .new-releases {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     gap: 44px;
 }
